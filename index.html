@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Campus Life -- Home</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-row">
+            <a href="/" class="logo">CampusLife</a>
+
+            <form role="search" class="search">
+                <label for="search-input" class="visually-hidden">Search</label>
+                <input id="search-input" type="search" placeholder="Search events, clubs..." />
+            </form>
+
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#clubs">Clubs</a></li>
+                    <li><a href="#rooms">Book Rooms</a></li>
+                    <li><a href="#helpdesk">Help Desk</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Hero -->
+        <section id="hero" class="hero">
+            <h1>Welcome to Campus Life</h1>
+            <p>Your hub for events, clubs, room bookings, and campus support.</p>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events" class="section-block">
+            <h2>Upcoming Events</h2>
+            <ul class="card-grid"></ul>
+        </section>
+
+        <!-- Clubs Section -->
+        <section id="clubs" class="section-block">
+            <h2>Clubs</h2>
+            <p>Join a club and connect with fellow students who share your interests.</p>
+            <ul class="card-grid"></ul>
+        </section>
+
+        <!-- Rooms Section -->
+        <section id="rooms" class="section-block">
+            <h2>Book a Study Room</h2>
+            <p>Reserve campus rooms for study or group work.</p>
+            <ul class="card-grid"></ul>
+        </section>
+
+        <!-- Help Desk Section -->
+        <section id="helpdesk" class="section-block">
+            <h2>Help Desk</h2>
+            <p>Report an issue or get help with campus services.</p>
+            <button class="primary-btn">Open Help Desk</button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>© 2025 Campus Life. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
