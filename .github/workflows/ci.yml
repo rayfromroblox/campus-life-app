@@ -23,10 +23,10 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Run tests
-        run: npm test
+      - name: Run tests (Jest)
+        run: npx jest --runInBand
 
       - name: Run lint (if available)
         run: npm run lint --if-present
