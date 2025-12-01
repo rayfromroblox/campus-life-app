@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-    "test": "jest"
+    "test": "node ./node_modules/jest/bin/jest.js --runInBand"
   },
   "keywords": [],
   "author": "",
